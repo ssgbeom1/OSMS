@@ -1,10 +1,10 @@
-# Charged subtree sharing
+# Optimal Syntactic Macro Selection
 
 Research code, fixed inputs and reported results for optimizing acyclic, parameter-free subtree definitions. Syntax nodes and references cost one; each definition adds a rational charge `h`.
 
 | Study inputs | Executable runs | Reported tables |
 |:---|:---|:---|
-| 17 distinct inputs from 4 Python packages | 6,137 across three schedules | 14 supplementary tables |
+| 17 distinct inputs from 4 Python packages | 6,137 across three schedules | 14 repository result tables |
 
 [Methods](METHODS.md) · [Protocol](PROTOCOL.md) · [Results](results/README.md)
 
@@ -113,3 +113,13 @@ This converts the bundled source snapshots and checks all 17 distinct inputs and
 | `metadata/environment.json` | Original study environment |
 
 The checker verifies returned representations and their costs using exact arithmetic. MILP optimality uses solver status under the stated tolerances. The forest method is exact under its model assumptions. Third-party licenses are included with the source snapshots; a license for the research code has not yet been selected.
+
+
+## Finite encoding checks and result tables
+
+| Manuscript item | Repository location |
+|:---|:---|
+| Article: Correctness checks and reproduction (finite encoding checks) | [Bounded encoding checks](analysis/bounded_encodings/README.md) and [scope and results](analysis/bounded_encodings/notes.md) |
+| Repository result table S7 | [Primary execution schedule](results/tables/S7_all_conditions.csv) |
+
+Run the finite encoding checks with Python 3.12: `python -B analysis/bounded_encodings/reproduce_checks.py generated/bounded_checks`. The destination must not exist. This verifies archived finite-check results; it does not rerun the large-scale timing experiments.
