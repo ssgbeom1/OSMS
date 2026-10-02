@@ -1,0 +1,37 @@
+[
+  {
+    "file": "data/inputs/pydantic-compact-10000000.json",
+    "sha256": "ccd4a10b021f86d877020464de521d481893e1bb704a8c0c5d9cc8e89d94033a",
+    "alias_of": "pydantic-compact-1000000"
+  },
+  {
+    "file": "data/inputs/pydantic-fielded-10000000.json",
+    "sha256": "b11ac3c7a229093d7c655419cac690952612a7d6115c204314e9b869da0daa58",
+    "alias_of": "pydantic-fielded-1000000"
+  },
+  {
+    "file": "data/inputs/aiohttp-compact-10000000.json",
+    "sha256": "0393bc16f5e163bb09a15cd7aef8f6433adb87f3d32ee70460f18010640f01f5",
+    "alias_of": "aiohttp-compact-1000000"
+  },
+  {
+    "file": "data/inputs/aiohttp-fielded-10000000.json",
+    "sha256": "94d0f21094ac565765a1bf47ab32707756014f9e3aac619a4fe4943fd89026cb",
+    "alias_of": "aiohttp-fielded-1000000"
+  },
+  {
+    "file": "data/inputs/jsonschema-compact-1000000.json",
+    "sha256": "e802e018f36b84120b6504a8cd057224af2e59c2e77942ed95d6a69083bb43fa",
+    "alias_of": "jsonschema-compact-100000"
+  },
+  {
+    "file": "data/inputs/jsonschema-compact-10000000.json",
+    "sha256": "6f4149e2206c9db2d513046ae516de096408890fb82f27f2c37b7b05d3b4b09b",
+    "alias_of": "jsonschema-compact-100000"
+  },
+  {
+    "file": "data/inputs/jsonschema-fielded-10000000.json",
+    "sha256": "49904c676c8eb0c707e60b767db1e5690f1e2f6eeb78ed3b241a3d0bfa57e836",
+    "alias_of": "jsonschema-fielded-1000000"
+  }
+]
