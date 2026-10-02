@@ -1,0 +1,6 @@
+example,N,source_encodings,target_encodings,canonical_checks,forest_checks,strict_savings,minima_h_0_half_1_1half_2_32
+III-A,13,203,203,6,3,5,10;21/2;11;23/2;12;13
+Chain (4),16,610,610,6,3,5,13;27/2;14;29/2;15;16
+Source L1,13,139,139,6,3,4,11;23/2;12;25/2;13;13
+Source L2,17,927,927,6,3,4,13;14;15;16;17;17
+Source L3,17,3107,3107,6,3,5,12;25/2;13;27/2;14;17

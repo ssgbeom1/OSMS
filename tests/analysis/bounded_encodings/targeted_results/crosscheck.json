@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "All bound-five languages, source and target; syntax nodes <= N",
+  "stats": {
+    "generator_cases": 3522,
+    "admitted_encodings": 3918,
+    "languages": 1761,
+    "qualified_encodings": 990,
+    "qualified_languages": 187
+  },
+  "qualified_nodes_by_symbol": {
+    "q": 894,
+    "m": 96
+  },
+  "qualification": "Exchangeable group with distinct child expansions and a direct macro-reference child; duplicate-inclusive generated encodings."
+}

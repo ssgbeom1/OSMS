@@ -1,0 +1,16 @@
+{
+  "mode": "count",
+  "bound": 6,
+  "charges": null,
+  "status": "INCOMPLETE",
+  "stats": {
+    "languages": 11001,
+    "source_encodings": 111581,
+    "target_encodings": 88420,
+    "map_checks": 0,
+    "charge_comparisons": 0,
+    "reason": "preflight cap"
+  },
+  "elapsed_seconds": 4.9060000000172295,
+  "code_sha256": "dbfd0135ff2c7fa766ef50cbb5bdb85aaf18a1d5cbb6bef546c6349ba5ca12ea"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "name": "unordered_pair",
+      "N": 9,
+      "stats": {
+        "languages": 1,
+        "source_encodings": 210,
+        "target_encodings": 210,
+        "map_checks": 420,
+        "charge_comparisons": 6
+      },
+      "minima": [
+        "7",
+        "15/2",
+        "8",
+        "17/2",
+        "9",
+        "9"
+      ]
+    },
+    {
+      "name": "mixed_pair",
+      "N": 10,
+      "stats": {
+        "languages": 1,
+        "source_encodings": 210,
+        "target_encodings": 210,
+        "map_checks": 420,
+        "charge_comparisons": 6
+      },
+      "minima": [
+        "8",
+        "17/2",
+        "9",
+        "19/2",
+        "10",
+        "10"
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.26600000000325963
+}

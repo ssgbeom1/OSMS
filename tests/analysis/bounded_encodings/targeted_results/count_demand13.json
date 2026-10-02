@@ -1,0 +1,85 @@
+{
+  "status": "COMPLETE",
+  "mode": "count",
+  "N": 13,
+  "roots": [
+    [
+      "o",
+      [
+        [
+          "f",
+          [
+            [
+              "g",
+              [
+                [
+                  "a",
+                  []
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "f",
+          [
+            [
+              "g",
+              [
+                [
+                  "a",
+                  []
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          "f",
+          [
+            [
+              "g",
+              [
+                [
+                  "a",
+                  []
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ],
+    [
+      "w",
+      [
+        [
+          "g",
+          [
+            [
+              "a",
+              []
+            ]
+          ]
+        ]
+      ]
+    ]
+  ],
+  "counts": [
+    203,
+    203
+  ],
+  "visited": [
+    0,
+    0
+  ],
+  "minima": [],
+  "charges": null,
+  "elapsed_seconds": 0.06300000002374873,
+  "case": "demand13",
+  "sha256": {
+    "targeted.py": "780b91e400be80f8b2bd6d190879b02331ad434eee1d17e72c64109747c52749",
+    "check.py": "dbfd0135ff2c7fa766ef50cbb5bdb85aaf18a1d5cbb6bef546c6349ba5ca12ea",
+    "targeted_protocol.md": "69ce7f3a03d18b05613776502f2fed148a24dec8fcda93c0b09ccf8aab3ebdca"
+  }
+}

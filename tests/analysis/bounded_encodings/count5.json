@@ -1,0 +1,15 @@
+{
+  "mode": "count",
+  "bound": 5,
+  "charges": null,
+  "status": "COMPLETE",
+  "stats": {
+    "languages": 1761,
+    "source_encodings": 10637,
+    "target_encodings": 9186,
+    "map_checks": 0,
+    "charge_comparisons": 0
+  },
+  "elapsed_seconds": 0.40700000000651926,
+  "code_sha256": "dbfd0135ff2c7fa766ef50cbb5bdb85aaf18a1d5cbb6bef546c6349ba5ca12ea"
+}

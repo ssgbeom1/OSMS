@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "bound": 5,
+  "raw_terms_by_size": {
+    "1": 2,
+    "2": 6,
+    "3": 30,
+    "4": 178,
+    "5": 1178
+  },
+  "source_classes_by_size": {
+    "1": 2,
+    "2": 6,
+    "3": 29,
+    "4": 157,
+    "5": 927
+  },
+  "languages_by_total_size": [
+    1,
+    2,
+    7,
+    41,
+    236,
+    1474
+  ],
+  "total_languages": 1761
+}

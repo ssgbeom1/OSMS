@@ -1,0 +1,32 @@
+{
+  "scope": "Five prescribed fixtures; syntax size <= N, all six charges; forest only first three",
+  "counts": {
+    "count_chain16": [
+      610,
+      610
+    ],
+    "count_demand13": [
+      203,
+      203
+    ],
+    "count_L1": [
+      139,
+      139
+    ],
+    "count_L2": [
+      927,
+      927
+    ],
+    "count_L3": [
+      3107,
+      3107
+    ]
+  },
+  "validation_seconds_per_case": 180,
+  "hashes": {
+    "targeted.py": "780b91e400be80f8b2bd6d190879b02331ad434eee1d17e72c64109747c52749",
+    "targeted_protocol.md": "69ce7f3a03d18b05613776502f2fed148a24dec8fcda93c0b09ccf8aab3ebdca",
+    "check.py": "dbfd0135ff2c7fa766ef50cbb5bdb85aaf18a1d5cbb6bef546c6349ba5ca12ea",
+    "targeted_crosscheck.py": "e33a9a53a8f7918ca85553ef7b67957a10dbe004b71bc123b12b3078abe70366"
+  }
+}
