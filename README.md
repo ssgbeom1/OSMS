@@ -4,7 +4,7 @@ Research code, fixed inputs and reported results for optimizing acyclic, paramet
 
 | Study inputs | Executable runs | Reported tables |
 |:---|:---|:---|
-| 17 distinct inputs from 4 Python packages | 6,137 across three schedules | 12 supplementary tables |
+| 17 distinct inputs from 4 Python packages | 6,137 across three schedules | 14 supplementary tables |
 
 [Methods](METHODS.md) · [Protocol](PROTOCOL.md) · [Results](results/README.md)
 
@@ -23,9 +23,10 @@ python -m pip install -r requirements.txt
 python -B reproduce.py verify
 python -B tests/verify.py
 python -B tests/test_schedules.py
+python -B tests/test_residual_summary.py
 ```
 
-`verify` checks package hashes; the tests compare small solver outputs with exact oracles and check schedule membership. Reported tables are supplied as comparison targets.
+`verify` checks package hashes; the tests compare small solver outputs with exact oracles and check schedule membership. Expect `PASS` from package, solver and schedule checks, and `OK` from the residual-summary tests. Resolve any failure before starting the full study. Reported tables are supplied as comparison targets.
 
 ## Run one example
 
@@ -58,7 +59,7 @@ python -B summarize_run.py --records generated/full_run/records --out generated/
 python -B reproduce.py analyze --records generated/full_run/records --out generated/full_analysis
 ```
 
-The primary schedule has 5,184 slots: 3,672 executions and 1,512 unexecuted aliases. Diagnostics add 935 executions and normalization adds 1,530. Suites run sequentially with their corresponding implementations. Individual timeouts remain in the results. Use a new output directory for each independent run.
+The primary schedule has 5,184 slots: 3,672 executions and 1,512 unexecuted aliases. Aliases are target-size requests that produced the same represented input as another request. Diagnostics add 935 executions and normalization adds 1,530. Suites run sequentially with their corresponding implementations. Individual timeouts remain in the results. Use a new output directory for each independent run; existing output directories are rejected unless the scheduler is explicitly resumed.
 
 Allow substantial runtime and at least 60 GB of additional disk space for a full run. Avoid concurrent heavy work during timing. Per-input limits are in [Protocol](PROTOCOL.md). Each invocation receives a session identifier; comparisons across resumed sessions follow the analysis eligibility rules.
 
@@ -70,7 +71,19 @@ Allow substantial runtime and at least 60 GB of additional disk space for a full
 python -B summarize.py
 ```
 
-`results/` contains the reported tables and summaries for comparison. Past execution logs and returned representations are not bundled. Fresh runs write their own records under the chosen `generated/` directory. Old raw-record path columns are omitted from reference tables; costs, timings, statuses and row order are retained.
+This prints a JSON summary without modifying the reference results.
+
+`results/` contains the reported tables and summaries for comparison, including the 935 per-run diagnostic CSV records in `results/diagnostics/runs.csv`. Historical solver logs and returned representations are not bundled. The CSV records support recalculating the reported summaries; fresh runs generate logs and representations for checking new executions. Old raw-record path columns are omitted from reference tables; costs, timings, statuses and row order are retained.
+
+Recreate Tables S13–S14 from the 935 preserved diagnostic records, without running an optimizer:
+
+```sh
+python -B analysis/summarize_greedy.py --out generated/reported_residual_tables
+```
+
+Compare these outputs with `results/tables/S13_residual_quality_time_conditions.csv` and `results/tables/S14_residual_quality_time_by_charge.csv`. Use a new output directory for each invocation. The full `reproduce.py analyze` command also generates S13–S14 from fresh diagnostic records. Completion rates and timings in a fresh run can differ from the reported results.
+
+Use Git or download the complete repository ZIP so that hidden files are included. The `.gitattributes` file preserves source bytes; do not convert line endings in fixed inputs or regenerate their reference hashes to bypass a failed check.
 
 To plot freshly analyzed results:
 
@@ -99,4 +112,4 @@ This converts the bundled source snapshots and checks all 17 distinct inputs and
 | `examples/`, `tests/` | Example input, exact-oracle and schedule checks |
 | `metadata/environment.json` | Original study environment |
 
-Feasibility and representation cost are checked exactly. MILP optimality uses solver status under the stated tolerances. The forest method is exact under its model assumptions. Third-party licenses are included with the source snapshots; a license for the research code has not yet been selected.
+The checker verifies returned representations and their costs using exact arithmetic. MILP optimality uses solver status under the stated tolerances. The forest method is exact under its model assumptions. Third-party licenses are included with the source snapshots; a license for the research code has not yet been selected.

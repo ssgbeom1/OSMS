@@ -174,6 +174,11 @@ def export_tables(out):
                for k,v in row.items()} for row in rows]
         with (target/name).open('w',encoding='utf-8',newline='') as f:
             writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+    from summarize_greedy import summarize
+    residual_out=out/'residual_summary'
+    summarize(out/'comparison/diagnostic_runs.csv',residual_out)
+    for name in ['S13_residual_quality_time_conditions.csv','S14_residual_quality_time_by_charge.csv']:
+        shutil.copyfile(residual_out/name,target/name)
     atomic_json(out/'table_comparison.json',dict(scope='fresh measurements',reference='results/tables',timings_may_differ=True))
 
 def main():
