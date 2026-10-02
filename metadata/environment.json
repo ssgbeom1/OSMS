@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "numpy": "1.26.4",
+  "scipy": "1.12.0",
+  "psutil": "7.2.2",
+  "highs": "1.2.0",
+  "os": "Windows 11 build 26200",
+  "cpu": "Intel Core i9-14900K",
+  "physical_cores": 24,
+  "logical_cores": 32,
+  "ram_bytes": 68480446464,
+  "solver": {
+    "presolve": true,
+    "threads": 1,
+    "random_seed": 0,
+    "mip_rel_gap": 0,
+    "primal_feasibility_tolerance": 1e-07,
+    "dual_feasibility_tolerance": 1e-07,
+    "mip_feasibility_tolerance": 1e-06
+  }
+}

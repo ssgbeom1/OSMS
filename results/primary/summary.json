@@ -1,0 +1,170 @@
+{
+  "completion": [
+    {
+      "method": "A2",
+      "attempted": 510,
+      "valid": 504,
+      "numeric_optimal": 504,
+      "all_six_valid_conditions": 84,
+      "all_six_numeric_optimal_conditions": 84,
+      "statuses": "{\"optimal_numerical\": 504, \"METHOD_TIME_CAP\": 6}"
+    },
+    {
+      "method": "All-U",
+      "attempted": 510,
+      "valid": 510,
+      "numeric_optimal": 0,
+      "all_six_valid_conditions": 85,
+      "all_six_numeric_optimal_conditions": 0,
+      "statuses": "{\"FEASIBLE\": 510}"
+    },
+    {
+      "method": "Greedy-add",
+      "attempted": 510,
+      "valid": 450,
+      "numeric_optimal": 0,
+      "all_six_valid_conditions": 75,
+      "all_six_numeric_optimal_conditions": 0,
+      "statuses": "{\"limit_feasible\": 348, \"FEASIBLE\": 102, \"METHOD_TIME_CAP\": 60}"
+    },
+    {
+      "method": "Greedy-prune",
+      "attempted": 510,
+      "valid": 470,
+      "numeric_optimal": 0,
+      "all_six_valid_conditions": 76,
+      "all_six_numeric_optimal_conditions": 0,
+      "statuses": "{\"FEASIBLE\": 220, \"limit_feasible\": 250, \"METHOD_TIME_CAP\": 39, \"input_budget_exceeded_feasible\": 1}"
+    },
+    {
+      "method": "A0",
+      "attempted": 510,
+      "valid": 450,
+      "numeric_optimal": 384,
+      "all_six_valid_conditions": 75,
+      "all_six_numeric_optimal_conditions": 64,
+      "statuses": "{\"optimal_numerical\": 384, \"limit_feasible\": 66, \"METHOD_TIME_CAP\": 60}"
+    },
+    {
+      "method": "A1",
+      "attempted": 510,
+      "valid": 504,
+      "numeric_optimal": 504,
+      "all_six_valid_conditions": 84,
+      "all_six_numeric_optimal_conditions": 84,
+      "statuses": "{\"optimal_numerical\": 504, \"METHOD_TIME_CAP\": 6}"
+    }
+  ],
+  "lp": {
+    "conditions": 85,
+    "known_integer_optimum": 84,
+    "zero_objective_gap": 0,
+    "positive_objective_gap": 84,
+    "fractional_returned_vector": 85,
+    "full_gap_percent_median": 0.07851074129610261,
+    "full_gap_percent_max": 1.1283923073725142,
+    "residual_gap_percent_median": 14.608446584554557,
+    "residual_gap_percent_max": 23.49722924436447,
+    "unknown_integer_optimum": [
+      {
+        "slot": "319",
+        "h": "32",
+        "method": "LP-on",
+        "repeat": "0",
+        "kind": "LP",
+        "status": "LP_OPTIMAL_NUMERICAL",
+        "valid_return": "True",
+        "input_id": "matplotlib-fielded-10000000",
+        "distribution": "matplotlib",
+        "representation": "fielded",
+        "target_nodes": "10000000",
+        "actual_nodes": "3373699",
+        "known_integer_optimum": "",
+        "process_seconds": "36.15865320000012",
+        "peak_sampled_rss_bytes": "1492815872",
+        "cost": "",
+        "lp_status": "0",
+        "lp_full_objective_numeric": "1662943.4502987685",
+        "lp_residual_objective_numeric": "257210.4502987685",
+        "lp_max_fractionality": "0.5",
+        "lp_feasibility_violation": "7.105427357601002e-15",
+        "solver_invoked": "True",
+        "error": "",
+        "seconds_primary": "23.650160799999867",
+        "seconds_preprocess": "23.455967599998985",
+        "seconds_model": "0.10524369999984629",
+        "seconds_solver": "0.08505170000353246",
+        "profile_residual_signature": "6789e87dcf88ee6af6fd9e8373aa039986b6135f82218d219c921db9d8d12564",
+        "profile_fixed_cost": "1405733",
+        "profile_residual_candidates": "4030",
+        "profile_components": "373",
+        "profile_max_component_candidates": "2645",
+        "full_objective_gap": "",
+        "full_gap_percent": "",
+        "residual_integer_optimum": "",
+        "zero_gap_numeric": "",
+        "gap_reference_kind": "unavailable",
+        "reference_minus_lp_numeric": "",
+        "residual_gap_percent": "",
+        "seconds_interpret": "",
+        "seconds_reconstruct": "",
+        "profile_N": "",
+        "profile_subterms": "",
+        "profile_initial_candidates": "",
+        "profile_joins": "",
+        "profile_forced": "",
+        "profile_excluded": "",
+        "profile_count_one": "",
+        "profile_fixed_count_vertices": "",
+        "profile_deterministic_components": "",
+        "profile_raw_components": "",
+        "profile_max_component_vertices": "",
+        "profile_variables": "",
+        "profile_constraints": "",
+        "witness_checked": "",
+        "quality_gap_percent": "",
+        "seconds_selection": ""
+      }
+    ]
+  },
+  "residual_greedy": [
+    {
+      "method": "RG-add",
+      "attempted": 255,
+      "valid_converged": 252,
+      "complete_conditions_with_known_optimum": 84,
+      "optimal_conditions": 29,
+      "gap_percent_median": 0.0019102025483479816,
+      "gap_percent_max": 0.07246138137742499
+    },
+    {
+      "method": "RG-prune",
+      "attempted": 255,
+      "valid_converged": 252,
+      "complete_conditions_with_known_optimum": 84,
+      "optimal_conditions": 37,
+      "gap_percent_median": 8.420221225500867e-05,
+      "gap_percent_max": 0.08655295399262808
+    }
+  ],
+  "original_greedy": [
+    {
+      "method": "Greedy-add",
+      "all_six_converged_conditions": 16,
+      "known_optimum_conditions": 16,
+      "gap_percent_max": 0.10869207206613749
+    },
+    {
+      "method": "Greedy-prune",
+      "all_six_converged_conditions": 36,
+      "known_optimum_conditions": 36,
+      "gap_percent_max": 0.029643292381673857
+    }
+  ],
+  "A1_over_AllU_time_ratio_median": 2.3826957381151233,
+  "A1_minus_AllU_seconds_median": 0.21955929999239743,
+  "A1_minus_AllU_seconds_max": 16.24176185000033,
+  "A0_over_A1_RSS_median": 1.5276650151829951,
+  "A1_lower_RSS_conditions": 63,
+  "max_sampled_RSS_MiB": 2708.46484375
+}

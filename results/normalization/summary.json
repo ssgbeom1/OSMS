@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "rows": 1530,
+  "conditions": 85,
+  "joint_three_method_complete": 65,
+  "summary": {
+    "A0": {
+      "attempted": 510,
+      "valid": 456,
+      "optimal_runs": 390,
+      "complete_conditions": 65
+    },
+    "A0-U": {
+      "attempted": 510,
+      "valid": 480,
+      "optimal_runs": 480,
+      "complete_conditions": 80
+    },
+    "A1": {
+      "attempted": 510,
+      "valid": 504,
+      "optimal_runs": 504,
+      "complete_conditions": 84
+    }
+  },
+  "paired": [
+    {
+      "reference": "A0",
+      "comparison": "A0-U",
+      "source": "ALL",
+      "total": 85,
+      "eligible": 65,
+      "ratio_median": 2.6041456688043927,
+      "IMPROVED": 65,
+      "INELIGIBLE": 20
+    },
+    {
+      "reference": "A0",
+      "comparison": "A0-U",
+      "source": "matplotlib",
+      "total": 30,
+      "eligible": 16,
+      "ratio_median": 2.5497372293026457,
+      "IMPROVED": 16,
+      "INELIGIBLE": 14
+    },
+    {
+      "reference": "A0",
+      "comparison": "A0-U",
+      "source": "pydantic",
+      "total": 20,
+      "eligible": 15,
+      "ratio_median": 2.887853128529087,
+      "IMPROVED": 15,
+      "INELIGIBLE": 5
+    },
+    {
+      "reference": "A0",
+      "comparison": "A0-U",
+      "source": "aiohttp",
+      "total": 20,
+      "eligible": 19,
+      "ratio_median": 2.3138404250738263,
+      "IMPROVED": 19,
+      "INELIGIBLE": 1
+    },
+    {
+      "reference": "A0",
+      "comparison": "A0-U",
+      "source": "jsonschema",
+      "total": 15,
+      "eligible": 15,
+      "ratio_median": 3.043159194374777,
+      "IMPROVED": 15
+    },
+    {
+      "reference": "A0-U",
+      "comparison": "A1",
+      "source": "ALL",
+      "total": 85,
+      "eligible": 80,
+      "ratio_median": 2.0497345998314143,
+      "UNRESOLVED": 3,
+      "IMPROVED": 76,
+      "REGRESSED": 1,
+      "INELIGIBLE": 5
+    },
+    {
+      "reference": "A0-U",
+      "comparison": "A1",
+      "source": "matplotlib",
+      "total": 30,
+      "eligible": 25,
+      "ratio_median": 1.904921455513353,
+      "UNRESOLVED": 3,
+      "IMPROVED": 21,
+      "REGRESSED": 1,
+      "INELIGIBLE": 5
+    },
+    {
+      "reference": "A0-U",
+      "comparison": "A1",
+      "source": "pydantic",
+      "total": 20,
+      "eligible": 20,
+      "ratio_median": 2.4240727913203153,
+      "IMPROVED": 20
+    },
+    {
+      "reference": "A0-U",
+      "comparison": "A1",
+      "source": "aiohttp",
+      "total": 20,
+      "eligible": 20,
+      "ratio_median": 2.4908000455218726,
+      "IMPROVED": 20
+    },
+    {
+      "reference": "A0-U",
+      "comparison": "A1",
+      "source": "jsonschema",
+      "total": 15,
+      "eligible": 15,
+      "ratio_median": 2.595883052600375,
+      "IMPROVED": 15
+    },
+    {
+      "reference": "A0",
+      "comparison": "A1",
+      "source": "ALL",
+      "total": 85,
+      "eligible": 65,
+      "ratio_median": 6.046771937728181,
+      "IMPROVED": 65,
+      "INELIGIBLE": 20
+    },
+    {
+      "reference": "A0",
+      "comparison": "A1",
+      "source": "matplotlib",
+      "total": 30,
+      "eligible": 16,
+      "ratio_median": 4.803932347128702,
+      "IMPROVED": 16,
+      "INELIGIBLE": 14
+    },
+    {
+      "reference": "A0",
+      "comparison": "A1",
+      "source": "pydantic",
+      "total": 20,
+      "eligible": 15,
+      "ratio_median": 6.046771937728181,
+      "IMPROVED": 15,
+      "INELIGIBLE": 5
+    },
+    {
+      "reference": "A0",
+      "comparison": "A1",
+      "source": "aiohttp",
+      "total": 20,
+      "eligible": 19,
+      "ratio_median": 4.063443270450719,
+      "IMPROVED": 19,
+      "INELIGIBLE": 1
+    },
+    {
+      "reference": "A0",
+      "comparison": "A1",
+      "source": "jsonschema",
+      "total": 15,
+      "eligible": 15,
+      "ratio_median": 8.290792396853925,
+      "IMPROVED": 15
+    }
+  ],
+  "optimal_cost_agreement": true,
+  "all_valid_costs_not_below_best_optimum": true,
+  "external_proof_review": false
+}

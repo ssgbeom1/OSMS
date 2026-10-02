@@ -1,0 +1,7 @@
+method,attempted,valid,numeric_optimal,all_six_valid_conditions,all_six_numeric_optimal_conditions,statuses
+A2,510,504,504,84,84,"{""optimal_numerical"": 504, ""METHOD_TIME_CAP"": 6}"
+All-U,510,510,0,85,0,"{""FEASIBLE"": 510}"
+Greedy-add,510,450,0,75,0,"{""limit_feasible"": 348, ""FEASIBLE"": 102, ""METHOD_TIME_CAP"": 60}"
+Greedy-prune,510,470,0,76,0,"{""FEASIBLE"": 220, ""limit_feasible"": 250, ""METHOD_TIME_CAP"": 39, ""input_budget_exceeded_feasible"": 1}"
+A0,510,450,384,75,64,"{""optimal_numerical"": 384, ""limit_feasible"": 66, ""METHOD_TIME_CAP"": 60}"
+A1,510,504,504,84,84,"{""optimal_numerical"": 504, ""METHOD_TIME_CAP"": 6}"

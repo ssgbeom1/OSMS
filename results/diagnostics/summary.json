@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "primary_audit": "PASS",
+  "primary_requested": 5184,
+  "primary_valid": 3464,
+  "primary_statuses": {
+    "FEASIBLE": 1103,
+    "limit_feasible": 789,
+    "THEOREM_EXACT": 102,
+    "optimal_numerical": 1470,
+    "ALIAS_NOT_EXECUTED": 1512,
+    "METHOD_TIME_CAP": 207,
+    "input_budget_exceeded_feasible": 1
+  },
+  "diagnostics": 935,
+  "diagnostic_statuses": {
+    "LP_OPTIMAL_NUMERICAL": 170,
+    "optimal_numerical": 252,
+    "FEASIBLE": 504,
+    "METHOD_TIME_CAP": 9
+  },
+  "direct_witness_checks": 266,
+  "byte_identical_reuses": 490,
+  "errors": [],
+  "timing_scope": "same-batch pairs only in primary summary; exposed-input post-hoc diagnostic ablation",
+  "paired_summary": [
+    {
+      "comparison": "A0/A1",
+      "conditions": 63,
+      "median_ratio": 6.019212226750782,
+      "classifications": {
+        "improved": 63
+      }
+    },
+    {
+      "comparison": "A1/A2",
+      "conditions": 82,
+      "median_ratio": 0.5641778063865253,
+      "classifications": {
+        "regressed": 80,
+        "unresolved": 2
+      }
+    },
+    {
+      "comparison": "All-U/A1",
+      "conditions": 82,
+      "median_ratio": 0.41969348995869077,
+      "classifications": {
+        "regressed": 82
+      }
+    }
+  ],
+  "ablation_summary": [
+    {
+      "comparison": "A1/RG-add",
+      "conditions": 29,
+      "median_ratio": 1.032032479719827,
+      "classifications": {
+        "unresolved": 20,
+        "improved": 9
+      }
+    },
+    {
+      "comparison": "A1/RG-prune",
+      "conditions": 37,
+      "median_ratio": 1.0547964777694125,
+      "classifications": {
+        "unresolved": 20,
+        "improved": 17
+      }
+    }
+  ]
+}

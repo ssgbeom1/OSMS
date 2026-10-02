@@ -1,0 +1,70 @@
+{
+  "representations": [
+    "compact",
+    "fielded"
+  ],
+  "target_nodes": [
+    100000,
+    1000000,
+    10000000
+  ],
+  "charges": [
+    "1",
+    "11/10",
+    "5/4",
+    "3/2",
+    "2",
+    "32"
+  ],
+  "methods_high": [
+    "A0",
+    "A1",
+    "A2",
+    "All-U",
+    "Greedy-add",
+    "Greedy-prune"
+  ],
+  "methods_h1": [
+    "No-sharing",
+    "All-U",
+    "Greedy-add",
+    "Greedy-prune",
+    "Forest",
+    "A0"
+  ],
+  "repeats": 6,
+  "limits": {
+    "prepare_seconds": 120,
+    "method_seconds": 30,
+    "check_seconds": 60,
+    "process_seconds": 220,
+    "rss_mib": 4096
+  },
+  "sample_seconds": 0.05,
+  "ordering": "target size, h, representation, source; then six repeats, rotating six methods by condition index + repeat.",
+  "size_shortfall_policy": "Retain undersized full package as an actual-size descriptive condition. Identical normalized root SET across size targets is measured once; other targets remain aliases and target size shortfalls, never evidence at their requested size.",
+  "analysis_rule": "Per-condition median across six repeats; separated improvement if median ratio>1.05 and all six comparison times are below all six reference times. Descriptive variation screen, not significance test. Report source strata, all failures and complete denominators; do not infer population significance from repeated h/representation rows.",
+  "sources": [
+    {
+      "distribution": "matplotlib",
+      "version": "3.10.5",
+      "package": "matplotlib"
+    },
+    {
+      "distribution": "pydantic",
+      "version": "2.13.4",
+      "package": "pydantic"
+    },
+    {
+      "distribution": "aiohttp",
+      "version": "3.14.1",
+      "package": "aiohttp"
+    },
+    {
+      "distribution": "jsonschema",
+      "version": "4.26.0",
+      "package": "jsonschema"
+    }
+  ],
+  "historical_total_wall_seconds": 21600
+}

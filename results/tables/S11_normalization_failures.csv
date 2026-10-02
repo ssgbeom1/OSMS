@@ -1,0 +1,9 @@
+method,last_observed_phase,reason,count
+Global MILP baseline,between_stages,limit_feasible,66
+Global MILP baseline,interpret,METHOD_TIME_CAP,11
+Global MILP baseline,reconstruct,METHOD_TIME_CAP,37
+Global MILP baseline,solver,METHOD_TIME_CAP,6
+Join-restricted MILP,interpret,METHOD_TIME_CAP,11
+Join-restricted MILP,reconstruct,METHOD_TIME_CAP,14
+Join-restricted MILP,solver,METHOD_TIME_CAP,5
+Preprocessed global MILP,reconstruct,METHOD_TIME_CAP,6

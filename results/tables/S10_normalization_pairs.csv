@@ -1,0 +1,256 @@
+condition,source,representation,target_nodes,N,h,reference,comparison,eligible,ratio,verdict,rss_ratio
+0,matplotlib,compact,100000,109859,11/10,Global MILP baseline,Join-restricted MILP,True,1.4097093141918016,IMPROVED,1.214050369783786
+0,matplotlib,compact,100000,109859,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.0898815377150746,UNRESOLVED,1.0353879941434847
+0,matplotlib,compact,100000,109859,11/10,Global MILP baseline,Preprocessed global MILP,True,1.5364161550826236,IMPROVED,1.25701317715959
+1,pydantic,compact,100000,100042,11/10,Global MILP baseline,Join-restricted MILP,True,1.88930111498892,IMPROVED,1.172075119231259
+1,pydantic,compact,100000,100042,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.6819287041584758,IMPROVED,1.1216921977934757
+1,pydantic,compact,100000,100042,11/10,Global MILP baseline,Preprocessed global MILP,True,3.177669776098478,IMPROVED,1.314707516469561
+2,aiohttp,compact,100000,108915,11/10,Global MILP baseline,Join-restricted MILP,True,1.9680910738529063,IMPROVED,1.1738351254480286
+2,aiohttp,compact,100000,108915,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.736395646766393,IMPROVED,1.134058364491056
+2,aiohttp,compact,100000,108915,11/10,Global MILP baseline,Preprocessed global MILP,True,3.4173847730779823,IMPROVED,1.331197542547745
+3,jsonschema,compact,100000,91848,11/10,Global MILP baseline,Join-restricted MILP,True,2.5720745036506028,IMPROVED,1.1693254365048842
+3,jsonschema,compact,100000,91848,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.605263408985636,IMPROVED,1.1356965652189106
+3,jsonschema,compact,100000,91848,11/10,Global MILP baseline,Preprocessed global MILP,True,4.128857085895204,IMPROVED,1.3279988818617003
+4,matplotlib,fielded,100000,130113,11/10,Global MILP baseline,Join-restricted MILP,True,3.481453744151433,IMPROVED,1.267564097136971
+4,matplotlib,fielded,100000,130113,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.8401141298474066,IMPROVED,1.1189900999478946
+4,matplotlib,fielded,100000,130113,11/10,Global MILP baseline,Preprocessed global MILP,True,6.40627222702321,IMPROVED,1.4183916757456618
+5,pydantic,fielded,100000,106808,11/10,Global MILP baseline,Join-restricted MILP,True,3.306947431037354,IMPROVED,1.2861494799057451
+5,pydantic,fielded,100000,106808,11/10,Join-restricted MILP,Preprocessed global MILP,True,3.5910698879552507,IMPROVED,1.2115232957950852
+5,pydantic,fielded,100000,106808,11/10,Global MILP baseline,Preprocessed global MILP,True,11.875479340649216,IMPROVED,1.5582000567805432
+6,aiohttp,fielded,100000,105182,11/10,Global MILP baseline,Join-restricted MILP,True,2.303808434484393,IMPROVED,1.292204218072467
+6,aiohttp,fielded,100000,105182,11/10,Join-restricted MILP,Preprocessed global MILP,True,3.790715196160542,IMPROVED,1.1971681586602594
+6,aiohttp,fielded,100000,105182,11/10,Global MILP baseline,Preprocessed global MILP,True,8.733081641642817,IMPROVED,1.5469857443628356
+7,jsonschema,fielded,100000,101506,11/10,Global MILP baseline,Join-restricted MILP,True,3.166205732128361,IMPROVED,1.2960487926866542
+7,jsonschema,fielded,100000,101506,11/10,Join-restricted MILP,Preprocessed global MILP,True,2.6185261155726467,IMPROVED,1.2055404816936321
+7,jsonschema,fielded,100000,101506,11/10,Global MILP baseline,Preprocessed global MILP,True,8.290792396853925,IMPROVED,1.5624392858339196
+8,matplotlib,compact,100000,109859,5/4,Global MILP baseline,Join-restricted MILP,True,1.3729482530777755,IMPROVED,1.1505185143035976
+8,matplotlib,compact,100000,109859,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.117831087959402,IMPROVED,1.0267132090903779
+8,matplotlib,compact,100000,109859,5/4,Global MILP baseline,Preprocessed global MILP,True,1.5347242394498901,IMPROVED,1.1812525559385407
+9,pydantic,compact,100000,100042,5/4,Global MILP baseline,Join-restricted MILP,True,1.9872997229746607,IMPROVED,1.1730469965764083
+9,pydantic,compact,100000,100042,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.5070222604804255,IMPROVED,1.1195831221490116
+9,pydantic,compact,100000,100042,5/4,Global MILP baseline,Preprocessed global MILP,True,2.9949049207693963,IMPROVED,1.3133236188545363
+10,aiohttp,compact,100000,108915,5/4,Global MILP baseline,Join-restricted MILP,True,1.749588820236175,IMPROVED,1.180646760004956
+10,aiohttp,compact,100000,108915,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.6771650612726545,IMPROVED,1.1293025714374554
+10,aiohttp,compact,100000,108915,5/4,Global MILP baseline,Preprocessed global MILP,True,2.9343492408933556,IMPROVED,1.333307422032897
+11,jsonschema,compact,100000,91848,5/4,Global MILP baseline,Join-restricted MILP,True,2.2705237001307754,IMPROVED,1.1599161476902362
+11,jsonschema,compact,100000,91848,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.6504401751062858,IMPROVED,1.1346006944444444
+11,jsonschema,compact,100000,91848,5/4,Global MILP baseline,Preprocessed global MILP,True,3.7473635332268094,IMPROVED,1.3160416666666668
+12,matplotlib,fielded,100000,130113,5/4,Global MILP baseline,Join-restricted MILP,True,3.78478409782614,IMPROVED,1.2797431275349256
+12,matplotlib,fielded,100000,130113,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.709287801394396,IMPROVED,1.1216807519153305
+12,matplotlib,fielded,100000,130113,5/4,Global MILP baseline,Preprocessed global MILP,True,6.469285289325715,IMPROVED,1.4354632335518522
+13,pydantic,fielded,100000,106808,5/4,Global MILP baseline,Join-restricted MILP,True,3.521793300485236,IMPROVED,1.3092397629880437
+13,pydantic,fielded,100000,106808,5/4,Join-restricted MILP,Preprocessed global MILP,True,3.402754493676216,IMPROVED,1.201175629517833
+13,pydantic,fielded,100000,106808,5/4,Global MILP baseline,Preprocessed global MILP,True,11.98379797902493,IMPROVED,1.5726268964969419
+14,aiohttp,fielded,100000,105182,5/4,Global MILP baseline,Join-restricted MILP,True,2.3105696317818993,IMPROVED,1.288466964969565
+14,aiohttp,fielded,100000,105182,5/4,Join-restricted MILP,Preprocessed global MILP,True,3.8505424305682006,IMPROVED,1.1870703268307468
+14,aiohttp,fielded,100000,105182,5/4,Global MILP baseline,Preprocessed global MILP,True,8.896946405958547,IMPROVED,1.5295009012170417
+15,jsonschema,fielded,100000,101506,5/4,Global MILP baseline,Join-restricted MILP,True,3.454134669414651,IMPROVED,1.3227110921258722
+15,jsonschema,fielded,100000,101506,5/4,Join-restricted MILP,Preprocessed global MILP,True,2.398857577649387,IMPROVED,1.1748469336545218
+15,jsonschema,fielded,100000,101506,5/4,Global MILP baseline,Preprocessed global MILP,True,8.285977125946797,IMPROVED,1.5539830706949045
+16,matplotlib,compact,100000,109859,3/2,Global MILP baseline,Join-restricted MILP,True,1.3524191595531436,IMPROVED,1.1468791875308555
+16,matplotlib,compact,100000,109859,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.153919376886631,IMPROVED,1.0363250986697852
+16,matplotlib,compact,100000,109859,3/2,Global MILP baseline,Preprocessed global MILP,True,1.5605826738811046,IMPROVED,1.1885396871802367
+17,pydantic,compact,100000,100042,3/2,Global MILP baseline,Join-restricted MILP,True,2.2981773713739595,IMPROVED,1.1903157775544577
+17,pydantic,compact,100000,100042,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.5333248370360295,IMPROVED,1.121355447980319
+17,pydantic,compact,100000,100042,3/2,Global MILP baseline,Preprocessed global MILP,True,3.523852443441867,IMPROVED,1.3347670819776207
+18,aiohttp,compact,100000,108915,3/2,Global MILP baseline,Join-restricted MILP,True,1.959416643274106,IMPROVED,1.1818369822974688
+18,aiohttp,compact,100000,108915,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.6825128844373198,IMPROVED,1.124230822883891
+18,aiohttp,compact,100000,108915,3/2,Global MILP baseline,Preprocessed global MILP,True,3.296743748289607,IMPROVED,1.3286575631228978
+19,jsonschema,compact,100000,91848,3/2,Global MILP baseline,Join-restricted MILP,True,2.232003389152786,IMPROVED,1.1659032922443209
+19,jsonschema,compact,100000,91848,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.6411258813012575,IMPROVED,1.1337608475934897
+19,jsonschema,compact,100000,91848,3/2,Global MILP baseline,Preprocessed global MILP,True,3.6629985290907596,IMPROVED,1.3218555048269613
+20,matplotlib,fielded,100000,130113,3/2,Global MILP baseline,Join-restricted MILP,True,3.2768687333895574,IMPROVED,1.2553555645964563
+20,matplotlib,fielded,100000,130113,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.9173156672536482,IMPROVED,1.1257620265959127
+20,matplotlib,fielded,100000,130113,3/2,Global MILP baseline,Preprocessed global MILP,True,6.282791762061416,IMPROVED,1.4132316244985628
+21,pydantic,fielded,100000,106808,3/2,Global MILP baseline,Join-restricted MILP,True,4.049582847112625,IMPROVED,1.309647426558237
+21,pydantic,fielded,100000,106808,3/2,Join-restricted MILP,Preprocessed global MILP,True,3.0089789603190393,IMPROVED,1.1975890237132207
+21,pydantic,fielded,100000,106808,3/2,Global MILP baseline,Preprocessed global MILP,True,12.185109585030764,IMPROVED,1.5684193829804107
+22,aiohttp,fielded,100000,105182,3/2,Global MILP baseline,Join-restricted MILP,True,2.3138404250738263,IMPROVED,1.312451746603638
+22,aiohttp,fielded,100000,105182,3/2,Join-restricted MILP,Preprocessed global MILP,True,3.969762959693604,IMPROVED,1.1829864282395168
+22,aiohttp,fielded,100000,105182,3/2,Global MILP baseline,Preprocessed global MILP,True,9.185398014099778,IMPROVED,1.5526126039513533
+23,jsonschema,fielded,100000,101506,3/2,Global MILP baseline,Join-restricted MILP,True,3.6112239327317597,IMPROVED,1.3187079596412556
+23,jsonschema,fielded,100000,101506,3/2,Join-restricted MILP,Preprocessed global MILP,True,2.552891615635152,IMPROVED,1.1958707601555167
+23,jsonschema,fielded,100000,101506,3/2,Global MILP baseline,Preprocessed global MILP,True,9.219063300051909,IMPROVED,1.5770042901193189
+24,matplotlib,compact,100000,109859,2,Global MILP baseline,Join-restricted MILP,True,1.4424274299915867,IMPROVED,1.1563593265839414
+24,matplotlib,compact,100000,109859,2,Join-restricted MILP,Preprocessed global MILP,True,1.0293136928690305,UNRESOLVED,1.0212322274881516
+24,matplotlib,compact,100000,109859,2,Global MILP baseline,Preprocessed global MILP,True,1.484710304660225,IMPROVED,1.1809114108640175
+25,pydantic,compact,100000,100042,2,Global MILP baseline,Join-restricted MILP,True,1.785279803396583,IMPROVED,1.1614746100654723
+25,pydantic,compact,100000,100042,2,Join-restricted MILP,Preprocessed global MILP,True,1.7744512949194786,IMPROVED,1.1274133120765246
+25,pydantic,compact,100000,100042,2,Global MILP baseline,Preprocessed global MILP,True,3.1678920589306587,IMPROVED,1.3094619370267038
+26,aiohttp,compact,100000,108915,2,Global MILP baseline,Join-restricted MILP,True,1.7149760641958502,IMPROVED,1.1922379650806048
+26,aiohttp,compact,100000,108915,2,Join-restricted MILP,Preprocessed global MILP,True,1.8104932909695677,IMPROVED,1.1157825944886177
+26,aiohttp,compact,100000,108915,2,Global MILP baseline,Preprocessed global MILP,True,3.104952658399982,IMPROVED,1.3302783699254672
+27,jsonschema,compact,100000,91848,2,Global MILP baseline,Join-restricted MILP,True,2.1625194547596434,IMPROVED,1.1567072797404028
+27,jsonschema,compact,100000,91848,2,Join-restricted MILP,Preprocessed global MILP,True,1.8075606091027105,IMPROVED,1.128086473046241
+27,jsonschema,compact,100000,91848,2,Global MILP baseline,Preprocessed global MILP,True,3.908884982841802,IMPROVED,1.3048658355492626
+28,matplotlib,fielded,100000,130113,2,Global MILP baseline,Join-restricted MILP,True,3.4624840376389656,IMPROVED,1.2659524984142645
+28,matplotlib,fielded,100000,130113,2,Join-restricted MILP,Preprocessed global MILP,True,2.025051914789913,IMPROVED,1.1204731746608336
+28,matplotlib,fielded,100000,130113,2,Global MILP baseline,Preprocessed global MILP,True,7.011709930350297,IMPROVED,1.418465814868045
+29,pydantic,fielded,100000,106808,2,Global MILP baseline,Join-restricted MILP,True,3.773375937990625,IMPROVED,1.3303613264254255
+29,pydantic,fielded,100000,106808,2,Join-restricted MILP,Preprocessed global MILP,True,3.3940809381119945,IMPROVED,1.1933571907850593
+29,pydantic,fielded,100000,106808,2,Global MILP baseline,Preprocessed global MILP,True,12.807143343464448,IMPROVED,1.5875962552321308
+30,aiohttp,fielded,100000,105182,2,Global MILP baseline,Join-restricted MILP,True,2.0751431585761626,IMPROVED,1.2749443882709808
+30,aiohttp,fielded,100000,105182,2,Join-restricted MILP,Preprocessed global MILP,True,4.671131793325364,IMPROVED,1.1957923585361923
+30,aiohttp,fielded,100000,105182,2,Global MILP baseline,Preprocessed global MILP,True,9.693267183726732,IMPROVED,1.5245687570530388
+31,jsonschema,fielded,100000,101506,2,Global MILP baseline,Join-restricted MILP,True,3.086678646758608,IMPROVED,1.2798029419153152
+31,jsonschema,fielded,100000,101506,2,Join-restricted MILP,Preprocessed global MILP,True,2.595883052600375,IMPROVED,1.2082082757225239
+31,jsonschema,fielded,100000,101506,2,Global MILP baseline,Preprocessed global MILP,True,8.01265678794413,IMPROVED,1.5462685057161165
+32,matplotlib,compact,100000,109859,32,Global MILP baseline,Join-restricted MILP,True,1.44328714628536,IMPROVED,1.1546202848758143
+32,matplotlib,compact,100000,109859,32,Join-restricted MILP,Preprocessed global MILP,True,0.9121047742190785,UNRESOLVED,1.010355949608759
+32,matplotlib,compact,100000,109859,32,Global MILP baseline,Preprocessed global MILP,True,1.3164290966959065,IMPROVED,1.1665774743632393
+33,pydantic,compact,100000,100042,32,Global MILP baseline,Join-restricted MILP,True,1.7502105231837584,IMPROVED,1.1289745354439091
+33,pydantic,compact,100000,100042,32,Join-restricted MILP,Preprocessed global MILP,True,1.177732292607256,IMPROVED,1.1350143732033495
+33,pydantic,compact,100000,100042,32,Global MILP baseline,Preprocessed global MILP,True,2.0612794520145528,IMPROVED,1.2814023247094113
+34,aiohttp,compact,100000,108915,32,Global MILP baseline,Join-restricted MILP,True,1.8661263906761978,IMPROVED,1.2149643869718554
+34,aiohttp,compact,100000,108915,32,Join-restricted MILP,Preprocessed global MILP,True,1.2199618945524435,IMPROVED,1.1013709063214014
+34,aiohttp,compact,100000,108915,32,Global MILP baseline,Preprocessed global MILP,True,2.2766030870436476,IMPROVED,1.338126428027418
+35,jsonschema,compact,100000,91848,32,Global MILP baseline,Join-restricted MILP,True,2.7704911885423553,IMPROVED,1.199700034154527
+35,jsonschema,compact,100000,91848,32,Join-restricted MILP,Preprocessed global MILP,True,1.5705338242211848,IMPROVED,1.1491638225255973
+35,jsonschema,compact,100000,91848,32,Global MILP baseline,Preprocessed global MILP,True,4.3511501213125205,IMPROVED,1.3786518771331058
+36,matplotlib,fielded,100000,130113,32,Global MILP baseline,Join-restricted MILP,True,4.280131414894002,IMPROVED,1.3158895479183812
+36,matplotlib,fielded,100000,130113,32,Join-restricted MILP,Preprocessed global MILP,True,1.408083399899344,IMPROVED,1.0882502818141109
+36,matplotlib,fielded,100000,130113,32,Global MILP baseline,Preprocessed global MILP,True,6.0267819946999355,IMPROVED,1.4320171713584213
+37,pydantic,fielded,100000,106808,32,Global MILP baseline,Join-restricted MILP,True,4.270497865174113,IMPROVED,1.3358230721432467
+37,pydantic,fielded,100000,106808,32,Join-restricted MILP,Preprocessed global MILP,True,2.551773723188405,IMPROVED,1.2161970419037924
+37,pydantic,fielded,100000,106808,32,Global MILP baseline,Preprocessed global MILP,True,10.89734423728348,IMPROVED,1.624624068847453
+38,aiohttp,fielded,100000,105182,32,Global MILP baseline,Join-restricted MILP,True,2.9726829640427117,IMPROVED,1.2871132502976228
+38,aiohttp,fielded,100000,105182,32,Join-restricted MILP,Preprocessed global MILP,True,3.4875619662928132,IMPROVED,1.2315587015812457
+38,aiohttp,fielded,100000,105182,32,Global MILP baseline,Preprocessed global MILP,True,10.367416043241947,IMPROVED,1.5851555233245573
+39,jsonschema,fielded,100000,101506,32,Global MILP baseline,Join-restricted MILP,True,3.228846003240734,IMPROVED,1.3541293370255743
+39,jsonschema,fielded,100000,101506,32,Join-restricted MILP,Preprocessed global MILP,True,3.224848963794986,IMPROVED,1.210569559930325
+39,jsonschema,fielded,100000,101506,32,Global MILP baseline,Preprocessed global MILP,True,10.412540687804462,IMPROVED,1.639267755611792
+40,matplotlib,compact,1000000,1004814,11/10,Global MILP baseline,Join-restricted MILP,True,3.9855147403763396,IMPROVED,1.3396451925439092
+40,matplotlib,compact,1000000,1004814,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.7111107696253567,IMPROVED,1.1962114133072703
+40,matplotlib,compact,1000000,1004814,11/10,Global MILP baseline,Preprocessed global MILP,True,6.8196571947585625,IMPROVED,1.6024988691032402
+41,pydantic,compact,1000000,366328,11/10,Global MILP baseline,Join-restricted MILP,True,2.887853128529087,IMPROVED,1.3409333831697257
+41,pydantic,compact,1000000,366328,11/10,Join-restricted MILP,Preprocessed global MILP,True,2.0744172848729154,IMPROVED,1.208094683556337
+41,pydantic,compact,1000000,366328,11/10,Global MILP baseline,Preprocessed global MILP,True,5.990612445995064,IMPROVED,1.6199744912105585
+42,aiohttp,compact,1000000,231531,11/10,Global MILP baseline,Join-restricted MILP,True,2.3567335330125587,IMPROVED,1.2350990964733315
+42,aiohttp,compact,1000000,231531,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.6558867415574985,IMPROVED,1.1790378006872853
+42,aiohttp,compact,1000000,231531,11/10,Global MILP baseline,Preprocessed global MILP,True,3.902483810699457,IMPROVED,1.4562285223367697
+43,matplotlib,fielded,1000000,1011144,11/10,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+43,matplotlib,fielded,1000000,1011144,11/10,Join-restricted MILP,Preprocessed global MILP,True,4.710837223101077,IMPROVED,1.2914837729144908
+43,matplotlib,fielded,1000000,1011144,11/10,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+44,pydantic,fielded,1000000,668703,11/10,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+44,pydantic,fielded,1000000,668703,11/10,Join-restricted MILP,Preprocessed global MILP,True,5.182346028773296,IMPROVED,1.326020230573692
+44,pydantic,fielded,1000000,668703,11/10,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+45,aiohttp,fielded,1000000,426119,11/10,Global MILP baseline,Join-restricted MILP,True,2.6041456688043927,IMPROVED,1.3878625724861546
+45,aiohttp,fielded,1000000,426119,11/10,Join-restricted MILP,Preprocessed global MILP,True,5.368588425058609,IMPROVED,1.3149546433709256
+45,aiohttp,fielded,1000000,426119,11/10,Global MILP baseline,Preprocessed global MILP,True,13.980586294709774,IMPROVED,1.8249763340513867
+46,jsonschema,fielded,1000000,167196,11/10,Global MILP baseline,Join-restricted MILP,True,3.043159194374777,IMPROVED,1.2799443989821426
+46,jsonschema,fielded,1000000,167196,11/10,Join-restricted MILP,Preprocessed global MILP,True,2.893481997534832,IMPROVED,1.2125458746771782
+46,jsonschema,fielded,1000000,167196,11/10,Global MILP baseline,Preprocessed global MILP,True,8.805326344556018,IMPROVED,1.5519913008019572
+47,matplotlib,compact,1000000,1004814,5/4,Global MILP baseline,Join-restricted MILP,True,2.610815941359802,IMPROVED,1.3231485133767134
+47,matplotlib,compact,1000000,1004814,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.8059964233530592,IMPROVED,1.2011801970750198
+47,matplotlib,compact,1000000,1004814,5/4,Global MILP baseline,Preprocessed global MILP,True,4.715124252128953,IMPROVED,1.5893397920573598
+48,pydantic,compact,1000000,366328,5/4,Global MILP baseline,Join-restricted MILP,True,2.806421240432453,IMPROVED,1.3340937167059932
+48,pydantic,compact,1000000,366328,5/4,Join-restricted MILP,Preprocessed global MILP,True,2.1546202154586065,IMPROVED,1.2170990350270081
+48,pydantic,compact,1000000,366328,5/4,Global MILP baseline,Preprocessed global MILP,True,6.046771937728181,IMPROVED,1.6237241752384588
+49,aiohttp,compact,1000000,231531,5/4,Global MILP baseline,Join-restricted MILP,True,2.317409559522471,IMPROVED,1.243635832770671
+49,aiohttp,compact,1000000,231531,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.6917416793008913,IMPROVED,1.163448371036401
+49,aiohttp,compact,1000000,231531,5/4,Global MILP baseline,Preprocessed global MILP,True,3.9204583398544837,IMPROVED,1.4469060837995351
+50,matplotlib,fielded,1000000,1011144,5/4,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+50,matplotlib,fielded,1000000,1011144,5/4,Join-restricted MILP,Preprocessed global MILP,True,4.608760842127123,IMPROVED,1.2867729737023288
+50,matplotlib,fielded,1000000,1011144,5/4,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+51,pydantic,fielded,1000000,668703,5/4,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+51,pydantic,fielded,1000000,668703,5/4,Join-restricted MILP,Preprocessed global MILP,True,5.1595330233446495,IMPROVED,1.3303599821916936
+51,pydantic,fielded,1000000,668703,5/4,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+52,aiohttp,fielded,1000000,426119,5/4,Global MILP baseline,Join-restricted MILP,True,2.342995672226963,IMPROVED,1.3779567728733626
+52,aiohttp,fielded,1000000,426119,5/4,Join-restricted MILP,Preprocessed global MILP,True,5.432016563763274,IMPROVED,1.3233690148452093
+52,aiohttp,fielded,1000000,426119,5/4,Global MILP baseline,Preprocessed global MILP,True,12.727191300362533,IMPROVED,1.8235452970167056
+53,jsonschema,fielded,1000000,167196,5/4,Global MILP baseline,Join-restricted MILP,True,3.037820433998955,IMPROVED,1.3222519211493484
+53,jsonschema,fielded,1000000,167196,5/4,Join-restricted MILP,Preprocessed global MILP,True,2.939701420322207,IMPROVED,1.2081864420463413
+53,jsonschema,fielded,1000000,167196,5/4,Global MILP baseline,Preprocessed global MILP,True,8.930285044510551,IMPROVED,1.597526844102371
+54,matplotlib,compact,1000000,1004814,3/2,Global MILP baseline,Join-restricted MILP,True,3.3833271528582634,IMPROVED,1.3815120904341303
+54,matplotlib,compact,1000000,1004814,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.904921455513353,IMPROVED,1.204422752990973
+54,matplotlib,compact,1000000,1004814,3/2,Global MILP baseline,Preprocessed global MILP,True,6.444972484500611,IMPROVED,1.6639245952509893
+55,pydantic,compact,1000000,366328,3/2,Global MILP baseline,Join-restricted MILP,True,2.8756117793688545,IMPROVED,1.3405639629261141
+55,pydantic,compact,1000000,366328,3/2,Join-restricted MILP,Preprocessed global MILP,True,2.1523529989373342,IMPROVED,1.200201112402979
+55,pydantic,compact,1000000,366328,3/2,Global MILP baseline,Preprocessed global MILP,True,6.189331637104077,IMPROVED,1.6089463595512679
+56,aiohttp,compact,1000000,231531,3/2,Global MILP baseline,Join-restricted MILP,True,2.208983059995309,IMPROVED,1.2358782133878772
+56,aiohttp,compact,1000000,231531,3/2,Join-restricted MILP,Preprocessed global MILP,True,1.8307204841321736,IMPROVED,1.1888189043854576
+56,aiohttp,compact,1000000,231531,3/2,Global MILP baseline,Preprocessed global MILP,True,4.0440305370343825,IMPROVED,1.469235383593633
+57,matplotlib,fielded,1000000,1011144,3/2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+57,matplotlib,fielded,1000000,1011144,3/2,Join-restricted MILP,Preprocessed global MILP,True,5.073400452767482,IMPROVED,1.2958154357766385
+57,matplotlib,fielded,1000000,1011144,3/2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+58,pydantic,fielded,1000000,668703,3/2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+58,pydantic,fielded,1000000,668703,3/2,Join-restricted MILP,Preprocessed global MILP,True,5.730796559968621,IMPROVED,1.3270187915309617
+58,pydantic,fielded,1000000,668703,3/2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+59,aiohttp,fielded,1000000,426119,3/2,Global MILP baseline,Join-restricted MILP,True,2.3447977058492206,IMPROVED,1.3604159082635603
+59,aiohttp,fielded,1000000,426119,3/2,Join-restricted MILP,Preprocessed global MILP,True,5.197093975209526,IMPROVED,1.3139611360239163
+59,aiohttp,fielded,1000000,426119,3/2,Global MILP baseline,Preprocessed global MILP,True,12.186134030154102,IMPROVED,1.7875336322869955
+60,jsonschema,fielded,1000000,167196,3/2,Global MILP baseline,Join-restricted MILP,True,3.1479034229448435,IMPROVED,1.3360968533809419
+60,jsonschema,fielded,1000000,167196,3/2,Join-restricted MILP,Preprocessed global MILP,True,3.147002070511162,IMPROVED,1.208745262533213
+60,jsonschema,fielded,1000000,167196,3/2,Global MILP baseline,Preprocessed global MILP,True,9.906458589776596,IMPROVED,1.615000741809746
+61,matplotlib,compact,1000000,1004814,2,Global MILP baseline,Join-restricted MILP,True,2.470923624708994,IMPROVED,1.3234513616100985
+61,matplotlib,compact,1000000,1004814,2,Join-restricted MILP,Preprocessed global MILP,True,1.9801261330789535,IMPROVED,1.2008440411950405
+61,matplotlib,compact,1000000,1004814,2,Global MILP baseline,Preprocessed global MILP,True,4.892740442128451,IMPROVED,1.5892586814009493
+62,pydantic,compact,1000000,366328,2,Global MILP baseline,Join-restricted MILP,True,3.0223084139136076,IMPROVED,1.3544469672397015
+62,pydantic,compact,1000000,366328,2,Join-restricted MILP,Preprocessed global MILP,True,2.2963718594522256,IMPROVED,1.2289135495392072
+62,pydantic,compact,1000000,366328,2,Global MILP baseline,Preprocessed global MILP,True,6.9403439922968975,IMPROVED,1.6644982301731561
+63,aiohttp,compact,1000000,231531,2,Global MILP baseline,Join-restricted MILP,True,2.443122657252529,IMPROVED,1.251966494399023
+63,aiohttp,compact,1000000,231531,2,Join-restricted MILP,Preprocessed global MILP,True,1.6632170547754486,IMPROVED,1.1770013088162723
+63,aiohttp,compact,1000000,231531,2,Global MILP baseline,Preprocessed global MILP,True,4.063443270450719,IMPROVED,1.4735662025017702
+64,matplotlib,fielded,1000000,1011144,2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+64,matplotlib,fielded,1000000,1011144,2,Join-restricted MILP,Preprocessed global MILP,True,6.160428783426832,IMPROVED,1.289623618485538
+64,matplotlib,fielded,1000000,1011144,2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+65,pydantic,fielded,1000000,668703,2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+65,pydantic,fielded,1000000,668703,2,Join-restricted MILP,Preprocessed global MILP,True,6.104767616975118,IMPROVED,1.3264821590981197
+65,pydantic,fielded,1000000,668703,2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+66,aiohttp,fielded,1000000,426119,2,Global MILP baseline,Join-restricted MILP,True,2.7234096741582183,IMPROVED,1.4087234614658481
+66,aiohttp,fielded,1000000,426119,2,Join-restricted MILP,Preprocessed global MILP,True,5.517015854049018,IMPROVED,1.3172836342808911
+66,aiohttp,fielded,1000000,426119,2,Global MILP baseline,Preprocessed global MILP,True,15.02509434940136,IMPROVED,1.8556883610164894
+67,jsonschema,fielded,1000000,167196,2,Global MILP baseline,Join-restricted MILP,True,3.023062048159529,IMPROVED,1.355492697439596
+67,jsonschema,fielded,1000000,167196,2,Join-restricted MILP,Preprocessed global MILP,True,3.0427572548227158,IMPROVED,1.1997512236013088
+67,jsonschema,fielded,1000000,167196,2,Global MILP baseline,Preprocessed global MILP,True,9.198443978816623,IMPROVED,1.626254022335794
+68,matplotlib,compact,1000000,1004814,32,Global MILP baseline,Join-restricted MILP,True,2.4886585172454896,IMPROVED,1.3201281613688163
+68,matplotlib,compact,1000000,1004814,32,Join-restricted MILP,Preprocessed global MILP,True,0.8076977694335411,REGRESSED,1.147309148673444
+68,matplotlib,compact,1000000,1004814,32,Global MILP baseline,Preprocessed global MILP,True,2.0100839332609657,IMPROVED,1.5145951169598955
+69,pydantic,compact,1000000,366328,32,Global MILP baseline,Join-restricted MILP,True,3.0263413028939343,IMPROVED,1.3656757112502587
+69,pydantic,compact,1000000,366328,32,Join-restricted MILP,Preprocessed global MILP,True,1.7141184963547,IMPROVED,1.2369496282398182
+69,pydantic,compact,1000000,366328,32,Global MILP baseline,Preprocessed global MILP,True,5.187507603572675,IMPROVED,1.6892720633271567
+70,aiohttp,compact,1000000,231531,32,Global MILP baseline,Join-restricted MILP,True,2.7847804338857953,IMPROVED,1.257674081408919
+70,aiohttp,compact,1000000,231531,32,Join-restricted MILP,Preprocessed global MILP,True,1.4044081813099831,IMPROVED,1.1684348625559124
+70,aiohttp,compact,1000000,231531,32,Global MILP baseline,Preprocessed global MILP,True,3.9109684245011755,IMPROVED,1.4695102424511637
+71,matplotlib,fielded,1000000,1011144,32,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+71,matplotlib,fielded,1000000,1011144,32,Join-restricted MILP,Preprocessed global MILP,True,3.21647742727308,IMPROVED,1.3323954153757598
+71,matplotlib,fielded,1000000,1011144,32,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+72,pydantic,fielded,1000000,668703,32,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+72,pydantic,fielded,1000000,668703,32,Join-restricted MILP,Preprocessed global MILP,True,3.7198172154129607,IMPROVED,1.3477159309021114
+72,pydantic,fielded,1000000,668703,32,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+73,aiohttp,fielded,1000000,426119,32,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+73,aiohttp,fielded,1000000,426119,32,Join-restricted MILP,Preprocessed global MILP,True,3.1508796069115714,IMPROVED,1.329254638515675
+73,aiohttp,fielded,1000000,426119,32,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+74,jsonschema,fielded,1000000,167196,32,Global MILP baseline,Join-restricted MILP,True,3.528459267271405,IMPROVED,1.3839159426146697
+74,jsonschema,fielded,1000000,167196,32,Join-restricted MILP,Preprocessed global MILP,True,3.5594786581777087,IMPROVED,1.2319170957303254
+74,jsonschema,fielded,1000000,167196,32,Global MILP baseline,Preprocessed global MILP,True,12.559475458101922,IMPROVED,1.7048697087607594
+75,matplotlib,compact,10000000,1856156,11/10,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+75,matplotlib,compact,10000000,1856156,11/10,Join-restricted MILP,Preprocessed global MILP,True,1.9600395621153595,IMPROVED,1.2026763339971585
+75,matplotlib,compact,10000000,1856156,11/10,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+76,matplotlib,fielded,10000000,3373699,11/10,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+76,matplotlib,fielded,10000000,3373699,11/10,Join-restricted MILP,Preprocessed global MILP,False,,INELIGIBLE,
+76,matplotlib,fielded,10000000,3373699,11/10,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+77,matplotlib,compact,10000000,1856156,5/4,Global MILP baseline,Join-restricted MILP,True,1.981530030424559,IMPROVED,1.3216363803614286
+77,matplotlib,compact,10000000,1856156,5/4,Join-restricted MILP,Preprocessed global MILP,True,1.946791008982057,IMPROVED,1.2011117070750292
+77,matplotlib,compact,10000000,1856156,5/4,Global MILP baseline,Preprocessed global MILP,True,3.8576248472584735,IMPROVED,1.5874329289483782
+78,matplotlib,fielded,10000000,3373699,5/4,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+78,matplotlib,fielded,10000000,3373699,5/4,Join-restricted MILP,Preprocessed global MILP,False,,INELIGIBLE,
+78,matplotlib,fielded,10000000,3373699,5/4,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+79,matplotlib,compact,10000000,1856156,3/2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+79,matplotlib,compact,10000000,1856156,3/2,Join-restricted MILP,Preprocessed global MILP,True,2.024560507239512,IMPROVED,1.2046502163734678
+79,matplotlib,compact,10000000,1856156,3/2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+80,matplotlib,fielded,10000000,3373699,3/2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+80,matplotlib,fielded,10000000,3373699,3/2,Join-restricted MILP,Preprocessed global MILP,False,,INELIGIBLE,
+80,matplotlib,fielded,10000000,3373699,3/2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+81,matplotlib,compact,10000000,1856156,2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+81,matplotlib,compact,10000000,1856156,2,Join-restricted MILP,Preprocessed global MILP,True,2.3097395777095855,IMPROVED,1.2045629842053645
+81,matplotlib,compact,10000000,1856156,2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+82,matplotlib,fielded,10000000,3373699,2,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+82,matplotlib,fielded,10000000,3373699,2,Join-restricted MILP,Preprocessed global MILP,False,,INELIGIBLE,
+82,matplotlib,fielded,10000000,3373699,2,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+83,matplotlib,compact,10000000,1856156,32,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+83,matplotlib,compact,10000000,1856156,32,Join-restricted MILP,Preprocessed global MILP,True,1.265282613911815,IMPROVED,1.1756964102246585
+83,matplotlib,compact,10000000,1856156,32,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
+84,matplotlib,fielded,10000000,3373699,32,Global MILP baseline,Join-restricted MILP,False,,INELIGIBLE,
+84,matplotlib,fielded,10000000,3373699,32,Join-restricted MILP,Preprocessed global MILP,False,,INELIGIBLE,
+84,matplotlib,fielded,10000000,3373699,32,Global MILP baseline,Preprocessed global MILP,False,,INELIGIBLE,
